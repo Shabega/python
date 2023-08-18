@@ -20,11 +20,11 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ******************************************************************************* ''')
 print("Welcome to Tresure Island.")
 print("Your mission is to find the tresure")
-move1=input('You\'re at a crossroad, Where do you want to go? Type "left" or "right".').lower()
+move1=input('You\'re at a crossroad, Where do you want to go? Type "left" or "right".\n').lower()
 if move1 =="left":
-    move2=input('You\'ve come to the lake . If you want to wait type "wait" or type "swim" to swim across.').lower()
+    move2=input('You\'ve come to the lake . If you want to wait type "wait" or type "swim" to swim across.\n').lower()
     if move2 == "wait":
-        move3=input('You arrive at a island unharmed .There is a house with 3 doors, one red , one yellow and one blue. Which colour do you choose?').lower()
+        move3=input('You arrive at a island unharmed .There is a house with 3 doors, one red , one yellow and one blue. Which colour do you choose?\n').lower()
         if move3== "red":
             print("Burned by fire Game Over.")
         elif move3=="blue":
